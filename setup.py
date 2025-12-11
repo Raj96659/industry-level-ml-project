@@ -24,6 +24,8 @@ def get_requirements(file_path:str)->List[str]:
 
 
 
+
+
 setup(
     name = 'industry-level-ml-project',
     version = '0.0.1',
@@ -33,3 +35,4 @@ setup(
     install_requires = get_requirements('requirements.txt'),
 
 )
+
